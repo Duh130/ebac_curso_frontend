@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+
+
+.article {
+    display: flex;
+
+}
+
+
+body > header,h1{
+    background-color: rgb(48, 47, 53);
+    padding: 16px 0;
+    color: white;
+    
+
+
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+
+}
+
+header li {
+    text-align: center;
+}
+
+header li a {
+    color: white;
+
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.articles article img {
+    height: 180px;
+
+}
+
+.articles article{
+    width: 30%;
+;
+}
+
+section{
+    padding: 16px 0;}
+
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+    
+}
