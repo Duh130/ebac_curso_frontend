@@ -1,5 +1,5 @@
 function validarFormulario() {
-    event.preventDefault();
+    event .preventDefault();
     var valorA = parseInt(document.getElementById('campoA').value);
     var valorB = parseInt(document.getElementById('campoB').value);
     if (valorB > valorA) {
