@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* Cor de fundo branca */
-    color: #333333; /* Cor do texto escura */
+    background-color: #ffffff;
+    color: #333333; 
     margin: 0;
     padding: 0;
 }
@@ -10,11 +10,10 @@ form {
     max-width: 400px;
     margin: 20px auto;
     padding: 15px;
-    background-color: #3498db; /* Cor azul */
-    border: 1px solid #2980b9; /* Borda azul mais escura */
+    background-color: #3498db; 
+    border: 1px solid #2980b9; 
     border-radius: 5px;
-    color: #ffffff; /* Cor do texto branco */
-}
+    color: #ffffff;
 
 label {
     display: block;
