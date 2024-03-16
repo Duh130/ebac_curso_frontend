@@ -1,0 +1,25 @@
+@use 'source/resete.scss';
+
+$corprimaria:#352f2f;
+
+
+body{
+    background-color: $corprimaria;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    nav{
+        order: 2;
+    }
+
+    li{
+
+        display: inline;
+        
+    }
+}
