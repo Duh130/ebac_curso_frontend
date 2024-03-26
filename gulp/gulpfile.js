@@ -30,4 +30,4 @@ function compilaSass(){
 
 exports.sass = compilaSass;
 exports.javascript = comprimeJavaScript;
-exports.imagens = ComprimeImages; 
+exports.imagens = ComprimeImages;
