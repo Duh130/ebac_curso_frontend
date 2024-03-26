@@ -3,10 +3,10 @@ const sass = require('gulp-sass')(require('sass'));
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 
-function ComprimeImagens (){
-    return gulp.src('./source/imagens/*.jpg')
+function ComprimeImages (){
+    return gulp.src('./source/images/*.')
         .pipe(imagemin())
-        .pipe(gulp.dest('./build/imagens'));
+        .pipe(gulp.dest('./build/images'));
 }
 
 function comprimeJavaScript(){
@@ -30,4 +30,4 @@ function compilaSass(){
 
 exports.sass = compilaSass;
 exports.javascript = comprimeJavaScript;
-exports.imagens = ComprimeImagens; 
+exports.imagens = ComprimeImages; 
