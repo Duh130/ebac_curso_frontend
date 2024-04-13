@@ -15,6 +15,7 @@
 
 .produto {
     text-align: center;
+    background-color: rgb(41, 78, 78);
 } 
 
 .produto__imagem {
