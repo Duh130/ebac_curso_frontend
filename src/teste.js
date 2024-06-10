@@ -1,0 +1,13 @@
+"use strict";
+let estaChovendo = false;
+let idade = 24;
+let altura = 1.23;
+const nacao = "brasil";
+const colegas = ['day ', 'duh'];
+const lista = ['gian', true, 34];
+let idadedaana = 23;
+idadedaana = '25 anos';
+let dadosdaapi;
+dadosdaapi = 10;
+dadosdaapi = true;
+let curso = 'front';
