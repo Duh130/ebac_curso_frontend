@@ -10,7 +10,7 @@ function saudacao(nome: string): string {
 
 
 const resultadoMultiplicacao = multiplicar(5, 3);
-console.log(`Resultado da multiplicação: ${resultadoMultiplicacao}`); // Resultado da multiplicação: 15
+console.log(`Resultado da multiplicação: ${resultadoMultiplicacao}`); 
 
 const mensagemSaudacao = saudacao("João");
-console.log(mensagemSaudacao); // Olá João
+console.log(mensagemSaudacao); 
